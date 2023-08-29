@@ -11,7 +11,7 @@
 - The token will also be used to vote on decisions related to the development of the platform.
 
 # We are building Web3 interface that will allow you buy and sell Don_Fortune Token on the Ethereum Blockchain.
-- we are using streamlit to build an decentralized application
+- we are using streamlit to build a decentralized application
 - we are using solidity to launch and deploy the Token
 
 
