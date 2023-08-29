@@ -12,5 +12,11 @@
 # We are building Web3 interface that will allow you buy and sell Don_Fortune Token on the Ethereum Blockchain.
 - we are using streamlit to build an decentralized application
 - we are using solidity to launch and deploy the Token
-- 
+
+
+# Front End Preview:
+
 ![ab1](https://github.com/dylan860/Defi_Don/assets/100908888/e4aaae15-8ac0-4f43-b5e3-baa2a72c5cb1)
+![team1](https://github.com/dylan860/Defi_Don/assets/100908888/524a544c-7c85-43be-b465-cd11c0afdfc9)
+![buyf1](https://github.com/dylan860/Defi_Don/assets/100908888/b95ece94-353f-4050-a5bc-60153704bd11)
+![stakef1](https://github.com/dylan860/Defi_Don/assets/100908888/d86d20b7-30e0-4dc3-bdbb-3bfb13b387ed)
