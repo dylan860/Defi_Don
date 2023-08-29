@@ -17,13 +17,10 @@
 # Front End Preview:
 
 ## Page 1
-![ab1](https://github.com/dylan860/Defi_Don/assets/100908888/e4aaae15-8ac0-4f43-b5e3-baa2a72c5cb1)
-
-## Page 2
 ![team1](https://github.com/dylan860/Defi_Don/assets/100908888/524a544c-7c85-43be-b465-cd11c0afdfc9)
 
-## Page 3
+## Page 2
 ![buyf1](https://github.com/dylan860/Defi_Don/assets/100908888/b95ece94-353f-4050-a5bc-60153704bd11)
 
-## Page 4
+## Page 3
 ![stakef1](https://github.com/dylan860/Defi_Don/assets/100908888/d86d20b7-30e0-4dc3-bdbb-3bfb13b387ed)
