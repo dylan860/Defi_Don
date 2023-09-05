@@ -90,9 +90,29 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
         "Buy Fortunes",
         "NFT Dons",
         "Business",
-        "Newsletter",
+        "Next Don Moves",
     ]
 )
+
+with tab1:
+    st.header("Don Fortunes Team")
+    st.markdown(
+        """
+        Pinda Johnson \n
+        Dylan Brown \n
+        Branzil Engracia \n
+            
+        We proudly represent a vibrant and multifaceted collective comprising individuals who are not only 
+        ardent aficionados of technology and blockchain but also visionary entrepreneurs. \n
+
+        Our unified mission revolves around the provision of an unparalleled blend of convenience and 
+        profitability within the realm of digital currency investment, catering to a broad spectrum of clients. 
+        Through our unwavering dedication, extensive expertise, and fervent passion for cutting-edge advancements, 
+        we strive to usher in a new era of financial empowerment, ensuring that every client, regardless of background or 
+        experience, can seamlessly partake in the transformative potential of digital currencies.
+        """
+    )
+    st.image("coin_logo.png", width=500)
 
 with tab2:
     st.header("Defi Don")
@@ -123,25 +143,30 @@ with tab2:
          """
     )
 
-with tab1:
-    st.header("Don Fortunes Team")
-    st.markdown(
-        """
-        Pinda Johnson \n
-        Dylan Brown \n
-        Branzil Engracia \n
-            
-        We proudly represent a vibrant and multifaceted collective comprising individuals who are not only 
-        ardent aficionados of technology and blockchain but also visionary entrepreneurs. \n
+with tab3:
 
-        Our unified mission revolves around the provision of an unparalleled blend of convenience and 
-        profitability within the realm of digital currency investment, catering to a broad spectrum of clients. 
-        Through our unwavering dedication, extensive expertise, and fervent passion for cutting-edge advancements, 
-        we strive to usher in a new era of financial empowerment, ensuring that every client, regardless of background or 
-        experience, can seamlessly partake in the transformative potential of digital currencies.
-        """
-    )
-    st.image("coin_logo.png", width=500)
+    def embed_gist(gist_url, width=600, height=400):
+        st.markdown(
+            f'<iframe src="{gist_url}.pibb" width="{width}" height="{height}"></iframe>',
+            unsafe_allow_html=True,  # This is required to embed the HTML iframe
+        )
+
+    gist_url_1 = "https://gist.github.com/branztg/84520bec94ba5d226400a36e92b1e709"
+    st.write("Crowdsale Smart Contract:")
+    embed_gist(gist_url_1)
+
+    gist_url_2 = "https://gist.github.com/branztg/e733ffc504aba2f786e76ff657895f69"
+    st.write("DFORT Coin Smart Contract:")
+    embed_gist(gist_url_2)
+
+    gist_url_3 = "https://gist.github.com/branztg/dad46f25becd6422db9200c8b5288725"
+    st.write("NFT Smart Contract:")
+    embed_gist(gist_url_3)
+
+    gist_url_4 = "https://gist.github.com/branztg/898908ac7821ea939cb6327a096f49b9"
+    st.write("Front End Application Code:")
+    embed_gist(gist_url_4)
+
 
 with tab4:
     st.header("Buy Fortunes")
@@ -159,7 +184,7 @@ with tab4:
         - With a fixed supply of 21 million tokens, Fortunes Token offers scarcity and value.
         - Built as an ERC20 token, it seamlessly interfaces with other ERC20 tokens and serves various functions within the realm of DeFi applications.
         - Precisely divided into 18 decimals, the token's granularity enables transactions at even the tiniest scales.
-        - Facilitating fluidity, DONFORTUNESToken can be freely traded on decentralized exchanges, facilitating buying and selling activities.
+        - Facilitating fluidity, FORTUNES Token can be freely traded on decentralized exchanges, facilitating buying and selling activities.
         - The responsibility of minting new tokens rests with the DFORT_Crowdsale contract, a standard and secure means of issuing tokens.
         - Empowering participation, the DFORT_Crowdsale contract enables individuals to contribute ETH in exchange for Fortunes Token.
 
@@ -216,29 +241,14 @@ with tab6:
     )
 
 with tab7:
-    st.header("Newsletter")
-    st.text_input("Enter your email address below for updates!")
-
-with tab3:
-
-    def embed_gist(gist_url, width=600, height=400):
-        st.markdown(
-            f'<iframe src="{gist_url}.pibb" width="{width}" height="{height}"></iframe>',
-            unsafe_allow_html=True,  # This is required to embed the HTML iframe
-        )
-
-    gist_url_1 = "https://gist.github.com/branztg/84520bec94ba5d226400a36e92b1e709"
-    st.write("Crowdsale Smart Contract:")
-    embed_gist(gist_url_1)
-
-    gist_url_2 = "https://gist.github.com/branztg/e733ffc504aba2f786e76ff657895f69"
-    st.write("DFORT Coin Smart Contract:")
-    embed_gist(gist_url_2)
-
-    gist_url_3 = "https://gist.github.com/branztg/dad46f25becd6422db9200c8b5288725"
-    st.write("NFT Smart Contract:")
-    embed_gist(gist_url_3)
-
-    gist_url_4 = "https://gist.github.com/branztg/898908ac7821ea939cb6327a096f49b9"
-    st.write("Front End Application Code:")
-    embed_gist(gist_url_4)
+    st.header("Next Steps")
+    st.markdown(
+        """
+        To bring our trading bot to life, we will:
+        1. Connect it to two introducing broker accounts to enable live trading. \n
+        2. Continue developing smart contracts to facilitate communication between the bot and the trading algorithm. \n
+        3. Sign up and obtain funding from proprietary trading firms. \n
+        4. Connect and deploy front-end interfaces to display the bot's trading results. \n
+        5. Explore ways to integrate with other DeFi protocols to add value to their ecosystems. \n
+        """
+    )
